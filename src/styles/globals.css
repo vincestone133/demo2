@@ -1,9 +1,12 @@
-:root {
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
+    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
+    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -104,4 +107,42 @@ a {
   html {
     color-scheme: dark;
   }
+} */
+@font-face {
+  font-family: "SVNFont";
+  src: url("../fonts/SVN-RosellindaAlyamore.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Mulish";
+  src: url("../fonts/Mulish-VariableFont_wght.ttf");
+}
+@font-face {
+  font-family: "Mulish-Italic";
+  src: url("../fonts/Mulish-Italic-VariableFont_wght.ttf");
+}
+:root {
+  --first-color: #fff;
+  --second-color: #e8e8e8;
+  --third-color: #cdd2db;
+  --gray-color: #969696;
+  --dark-color: #393939;
+  --bluedark-color: #2b3742;
+  --warning-color: #b20a0a;
+  --font-svn: SVNFont;
+  --font-main: Mulish;
+  --font-main-italic: Mulish;
+}
+.svn-text {
+  font-family: var(--font-svn);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3rem;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: capitalize;
+}
+html {
+  scroll-behavior: smooth;
 }
