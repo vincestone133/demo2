@@ -85,7 +85,7 @@ export const AboutEducation = () => {
     <div className="">
       <UnderlineHeading>Eduction</UnderlineHeading>
       {currentEducation.map((info) => (
-        <NormalTextCard title={info.title} time={info.time}>
+        <NormalTextCard title={info.title} time={info.time} key={info.title}>
           {info.description}
         </NormalTextCard>
       ))}
