@@ -34,8 +34,8 @@ export const AboutQuote = () => {
       ></CircleImg>
       <h1 className=" svn-text">About Me</h1>
       <p className="text-justify font-bold italic text-[20px]">
-        "Imagination is everything. It is the preview of life's coming
-        attractions."
+        &quot;Imagination is everything. It is the preview of life's coming
+        attractions.&quot;
       </p>
       <p className="text-justify">
         I am a person who loves beauty and has graphic design skills. I always
