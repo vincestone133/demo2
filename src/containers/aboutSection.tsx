@@ -32,7 +32,7 @@ export const AboutQuote = () => {
         $position="static"
         className="img-1"
       ></CircleImg>
-      <h1 className=" svn-text">About Me</h1>
+      <h1 className="svn-text">About Me</h1>
       <p className="text-justify font-bold italic text-[20px]">
         Imagination is everything. It is the preview of life's coming
         attractions.
